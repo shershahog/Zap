@@ -37,12 +37,13 @@
         }
 
         button{
-            margin-left: 10px;
+            margin-left: 1200px;
             background-color: rgb(20, 120, 203);
             color: white;
             font-family: 'Times New Roman', Times, serif;
             border: rgb(20, 120, 203);
             border-radius: 2px;
+            font-family: cursive;
         }
 
         .container {
@@ -92,7 +93,8 @@
         <h2 style="font-family: Arial, Helvetica, sans-serif; padding-left: 10px;">
             CART
         </h2>
-        <form action="shop.html" >
+        
+        <form action="shop.html">
             <button>BACK TO SHOPPING AREA</button>
         </form>
         </nav>
@@ -103,10 +105,19 @@
             <h1 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">PRODUCT ADDED TO CART SUCCESSFULLY</h1>
 
             <p>
-                Please click ENTER ADDRESS written below, to submit your address were you want your partcular product to be received
+                Please click ENTER ADDRESS written below right, to submit your address were you want your partcular product to be received
             </p>
 
-            <FORM action="Delivery.html">
+            <h3>
+                SELECT PAYMENT METHOD
+            </h3>
+    
+            <Form style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                <label>Cash on Delivery <input type="checkbox" value="COD"/></label>
+                <label>offline Emi <input type="checkbox" value="Emi"/></label>
+            </Form>
+
+            <FORM action="Delivery.html" style="margin-top: 15px;">
             <button> ENTER ADDRESS </button>
             </FORM>
         </div>
